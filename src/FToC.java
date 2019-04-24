@@ -46,7 +46,7 @@ public class FToC {
             System.out.println("It is below freezing.");
         }
 
-        if (fah1 > 100){
+        if (fah1 >= 100){
 
             System.out.println("It is hot outside.");
         }
@@ -64,7 +64,7 @@ public class FToC {
             System.out.println("It is below freezing.");
         }
 
-        if (fah2 > 100){
+        if (fah2 >= 100){
 
             System.out.println("It is hot outside.");
         }
@@ -82,7 +82,7 @@ public class FToC {
             System.out.println("It is below freezing.");
         }
 
-        if (fah3 > 100){
+        if (fah3 >= 100){
 
             System.out.println("It is hot outside.");
         }
