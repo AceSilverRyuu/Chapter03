@@ -26,15 +26,10 @@ public class FToC {
         cel3(fah3);
 
 
-        if (fah1 < 32){
 
-            System.out.println("It is below freezing.");
-        }
 
-        if (fah1 > 100){
 
-            System.out.println("It is hot outside.");
-        }
+
 
 
     }
@@ -46,6 +41,15 @@ public class FToC {
         cel1 = (fah1 - 32) * 5/9;
 
         System.out.println("It was " + cel1 + " celsius and " + fah1 + " fahrenheit in the morning.");
+        if (fah1 < 32){
+
+            System.out.println("It is below freezing.");
+        }
+
+        if (fah1 > 100){
+
+            System.out.println("It is hot outside.");
+        }
 
     }
     public static void cel2 (int fah2){
@@ -55,6 +59,15 @@ public class FToC {
         cel2 = (fah2 - 32) * 5/9;
 
         System.out.println("It was " + cel2 + " celsius and " + fah2 + " fahrenheit in the afternoon.");
+        if (fah2 < 32){
+
+            System.out.println("It is below freezing.");
+        }
+
+        if (fah2 > 100){
+
+            System.out.println("It is hot outside.");
+        }
 
     }
     public static void cel3 (int fah3){
@@ -64,7 +77,15 @@ public class FToC {
         cel3 = (fah3 - 32) * 5/9;
 
         System.out.println("It was " + cel3 + " celsius and " + fah3 + " fahrenheit in the evening.");
+        if (fah3 < 32){
 
+            System.out.println("It is below freezing.");
+        }
+
+        if (fah3 > 100){
+
+            System.out.println("It is hot outside.");
+        }
 
     }
 }
